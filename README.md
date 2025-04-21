@@ -19,10 +19,9 @@ React is a **JavaScript library** for building **user interfaces**, developed by
 
 ### 🧩 What are Components?
 
-Components are the **building blocks** of a React app. They can be:
+Components are the **building blocks** of a React app. A piece of UI when visualized. And code wise a component is a function returns JSX.
 
 - **Functional Components** (Preferred now)
-- **Class Components** (Legacy)
 
 ### ✅ Functional Component Example:
 
@@ -33,3 +32,29 @@ function Welcome(props) {
 ```
 
 ### ✅ JSX Reminder:
+
+- JSX allows writing HTML-like code inside JavaScript.
+
+- You can embed expressions with {}.
+
+- className is used instead of class.
+
+- Components should start with a capital letter.
+
+## 🔹 Props
+
+### 📦 What are Props?
+
+Props (short for properties) allow passing data from parent to child component.
+
+- Props are read-only.
+
+- Used to make components reusable with dynamic data. **Very Important**
+
+```jsx
+function Greeting({ name }) {
+  return <p>Welcome, {name}!</p>
+}
+
+;<Greeting name="Imran" />
+```
