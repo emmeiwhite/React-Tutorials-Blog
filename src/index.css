@@ -9,6 +9,10 @@ html {
 }
 
 /* layout section */
+section {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* --- Section-1: challenge-1: Card-List --- */
 .card-list {
   display: grid;
