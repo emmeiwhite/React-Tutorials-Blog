@@ -2,6 +2,14 @@
 
 A personal guide to revisit core React concepts with code examples, interview notes, and practical understanding.
 
+## FRONT END WEB APPLICATIONS ARE ALL ABOUT:
+
+### 1) Handling Data
+
+### 2) Displaying Data on the User Interface
+
+### (THIS IS THE MOST IMPORTANT STATEMENT & IDEA TO HAVE A MINDSET OF WEBSITE CREATION )
+
 ---
 
 ## 🔹 About React
@@ -47,7 +55,7 @@ It is a **syntax extension** for JavaScript that allows you to write HTML-like c
 
 ````jsx
 const element = <h1>Hello, world!</h1>;
-
+```
 
 ### ✅ JSX Reminder:
 
