@@ -31,6 +31,24 @@ function Welcome(props) {
 }
 ```
 
+## 🔹 JSX (JavaScript XML)
+
+JSX stands for **JavaScript XML**.
+
+It is a **syntax extension** for JavaScript that allows you to write HTML-like code inside JavaScript. JSX makes it easier to describe the UI structure in a declarative way, especially when working with React components.
+
+### 🧠 Why JSX?
+
+- It looks similar to HTML, making UI code easier to read and write.
+- JSX gets compiled to **`React.createElement()`** calls behind the scenes.
+- Helps create a virtual DOM representation, which React uses to efficiently update the actual DOM.
+
+### ✅ Example:
+
+````jsx
+const element = <h1>Hello, world!</h1>;
+
+
 ### ✅ JSX Reminder:
 
 - JSX allows writing HTML-like code inside JavaScript.
@@ -57,4 +75,4 @@ function Greeting({ name }) {
 }
 
 ;<Greeting name="Imran" />
-```
+````
