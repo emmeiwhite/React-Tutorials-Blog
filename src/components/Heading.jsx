@@ -1,8 +1,4 @@
 const Heading = ({ title }) => {
-  return (
-    <section>
-      <h1>{title}</h1>
-    </section>
-  )
+  return <h1>{title}</h1>
 }
 export default Heading

@@ -53,8 +53,8 @@ It is a **syntax extension** for JavaScript that allows you to write HTML-like c
 
 ### ✅ Example:
 
-````jsx
-const element = <h1>Hello, world!</h1>;
+```jsx
+const element = <h1>Hello, world!</h1>
 ```
 
 ### ✅ JSX Reminder:
@@ -83,4 +83,4 @@ function Greeting({ name }) {
 }
 
 ;<Greeting name="Imran" />
-````
+```
